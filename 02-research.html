@@ -1,0 +1,21 @@
+---
+layout: page
+title: Research
+---
+
+<img src="/public/img/climbing.jpg" alt="placeholder" title="Climbing in the Calanques, Marseille" style="margin-bottom:3em;margin-top:3em;">
+
+<div class="posts">
+  {% for post in site.posts %}
+
+  <div class="post">
+    
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+	<h4 class="research-subtitle">{{ post.subtitle }}</h4>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
