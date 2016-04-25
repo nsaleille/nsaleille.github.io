@@ -6,9 +6,14 @@
 	border-radius: 5em;
     background-position: center center;
   	background-size: cover;
-
+  	display: inline-block;
 	/*-webkit-border-radius: 150px;*/
 	/*-moz-border-radius: 150px;*/
+}
+
+.research-subtitle{
+	margin-top: 0.5rem;
+    font-size: 1.1rem;
 }
 
 .img-gallery {
