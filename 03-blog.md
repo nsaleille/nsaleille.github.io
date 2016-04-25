@@ -13,7 +13,7 @@ Here are some pictures of my trips in Greece, France, South-Africa and the US.
 
 <script>
 	var url = "{{ site.baseurl }}public/img/gallery/"
-	var posts = ['Burning Man', 'Climbing Sessions', 'New York', 'South Africa', 'The West']
+	var posts = ['Burning_Man', 'Climbing Sessions', 'New York', 'South Africa', 'The West']
 
 	posts.forEach(function(post){
 
