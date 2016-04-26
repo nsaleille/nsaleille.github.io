@@ -7,8 +7,11 @@ I like to hit the road and I love hiking and rock climbing.
 Here are some pictures of my trips in Greece, France, South-Africa and the US.
 
 
-<div class="row" id='gallery'>
 
+<a class="image fit thumb" href="" style="outline: 0px;"><img class="img-gallery" src="http://nsaleille.github.io/public/img/gallery/Burning_Man/small/IMG_0633-1.jpg" title=""></a>
+
+<div class="row" id='gallery'>
+	
 </div>
 
 <script>
