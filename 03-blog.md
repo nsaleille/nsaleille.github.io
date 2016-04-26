@@ -28,6 +28,7 @@ Here are some pictures of my trips in Greece, France, South-Africa and the US.
 		     $(data).find("a:contains(.jpg)").each(function(){
 		        // will loop through 
 		        var filename = $(this).attr("href");
+		     	console.log(filename)
 		        var image = $('<img class="img-gallery">').attr("src", url.concat(post).concat("/small/").concat(filename))
 		        var link = $('<a class="image fit thumb">').attr("href", url.concat(post).concat("/large/").concat(filename))
 		    	$(article).append(link.html(image))
