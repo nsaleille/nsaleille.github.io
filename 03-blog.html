@@ -16,7 +16,7 @@ Here are some pictures of my trips in Greece, France, South-Africa and the US.
 		    <span class="post-date">{{ post.date | date_to_string }}</span>
 
 		    <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-		    
+
 		    {{ post.content }}
 		  </div>
 	  	
@@ -35,7 +35,7 @@ Here are some pictures of my trips in Greece, France, South-Africa and the US.
 
 <script>
 
-	var url = "http://127.0.0.1:4000/images.json"
+	var url = "../images.json"
 	var posts = [
 		{"alias": 'Burning_Man', "title": "Burning Man"},
 		{"alias": 'Climbing_Sessions', "title": "Climbing Sessions"},
