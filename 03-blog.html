@@ -1,0 +1,64 @@
+---
+layout: page
+title: Blog
+---
+
+I like to hit the road and I love hiking and rock climbing. 
+Here are some pictures of my trips in Greece, France, South-Africa and the US.
+
+<!-- <div class="posts">
+  {% for post in site.posts %}
+	
+	  {% if post.layout == 'blog' %}
+		
+		  <div class="post">
+		    
+		    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+		    <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+		    
+		    {{ post.content }}
+		  </div>
+	  	
+	  {% endif %}
+
+  {% endfor %}
+</div> -->
+
+<!-- <a class="image fit thumb" href="" style="outline: 0px;"><img class="img-gallery" src="../public/img/gallery/Burning_Man/small/IMG_0633-1.jpg" title=""></a>
+ -->
+<div class="row" id='gallery'>
+	
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script>
+
+	var url = "http://127.0.0.1:4000/images.json"
+	var posts = [
+		{"alias": 'Burning_Man', "title": "Burning Man"},
+		{"alias": 'Climbing_Sessions', "title": "Climbing Sessions"},
+		{"alias": 'New_York', "title": "New York"},
+		{"alias": 'South_Africa', "title": "South Africa"},
+		{"alias": 'The_West', "title": "The West"}
+	]
+
+	posts.forEach(function(post){
+
+		var title = $("<h3>").append(post.title);
+		var article = $('<article class="6u 12u$(xsmall) work-item">').attr('id', post.alias);
+		$(article).append(title);
+		article.appendTo("#gallery");
+
+	});
+
+	$.getJSON(url, function(data){
+		$.each(data, function(key, val){
+			var img = $('<img class="img-gallery">').attr("src", val.url.small.concat(val.file));
+		  	var link = $('<a class="image fit thumb">').attr("href", val.url.large.concat(val.file));
+		  	$(val.post).append(link.html(img))
+		});
+	});
+
+</script>

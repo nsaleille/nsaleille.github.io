@@ -122,8 +122,40 @@
 
 .timeline .timeline-heading h4 {
     margin-top: 0;
-    color: inherit;
+    color: lightblue;
+    font-size: initial;
 }
+
+.timeline .timeline-heading h5 {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    color: steelblue;
+}
+
+.timeline .timeline-heading h6 {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: cornflowerblue;
+}
+
+.timeline-inverted .timeline-heading h4 {
+    margin-top: 0;
+    color: darksalmon;
+    font-size: initial;
+}
+
+.timeline-inverted .timeline-heading h5 {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    color: brown;
+}
+
+.timeline-inverted .timeline-heading h6 {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: chocolate;
+}
+
 
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
