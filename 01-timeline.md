@@ -20,7 +20,8 @@ title: Timeline
           
           ">
             <div class="timeline-image">
-              <img class="img-circle img-responsive" src="/public/img/logo-ayni.png" alt="">
+             <img class="img-circle img-responsive" src="/public/img/logo-ayni.png" alt="">
+              <!-- <img class="img-circle img-responsive" src="" alt=""> -->
             </div>
 
             <div class="timeline-panel">
@@ -57,7 +58,9 @@ title: Timeline
         
         <li class="timeline">
       		<div class="timeline-image">
-      			<img class="img-circle img-responsive" src="" alt="">
+      			<!-- <img class="img-circle img-responsive" src="/public/img/bnp.jpg" alt=""> -->
+              <img class="img-circle img-responsive" src="" alt="">
+
       		</div>
               <div class="timeline-panel">
                     <div class="timeline-heading">
@@ -91,7 +94,9 @@ title: Timeline
 
         <li class="timeline">
           <div class="timeline-image">
-            <img class="img-circle img-responsive" src="" alt="">
+            <!-- <img class="img-circle img-responsive" src="/public/img/lemonde.jpg" alt=""> -->
+              <img class="img-circle img-responsive" src="" alt="">
+
           </div>
               <div class="timeline-panel">
                     <div class="timeline-heading">
@@ -107,7 +112,9 @@ title: Timeline
 
             <li class="timeline-inverted">
             <div class="timeline-image">
+              <!-- <img class="img-circle img-responsive" src="/public/img/sorbonne.jpg" alt=""> -->
               <img class="img-circle img-responsive" src="" alt="">
+
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -123,7 +130,9 @@ title: Timeline
 
         <li class="timeline">
           <div class="timeline-image">
-            <img class="img-circle img-responsive" src="" alt="">
+            <!-- <img class="img-circle img-responsive" src="/public/img/baku.jpg" alt=""> -->
+              <img class="img-circle img-responsive" src="" alt="">
+
           </div>
               <div class="timeline-panel">
                     <div class="timeline-heading">
@@ -139,7 +148,9 @@ title: Timeline
 
             <li class="timeline-inverted">
             <div class="timeline-image">
+              <!-- <img class="img-circle img-responsive" src="/public/img/ens.jpg" alt=""> -->
               <img class="img-circle img-responsive" src="" alt="">
+
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
