@@ -5,16 +5,31 @@ title: La teuf est dans le pré !
 
 <img class="img-gallery" src="../public/img/cambon-2.jpg" title="">
 
-<br>
-<p style="margin-top: 30px">
-	Après le succès international de la dernière édition, la fine équipe du 34 (Arthur, Yann, Nico R. et Nico S.) sort à nouveau sa meilleure tireuse et ses grosses enceintes pour un grooooos week-end au Cambon. Ramenez votre boule, votre bonne humeur et votre matos de glandouille: ballon, pétanque, slack-line, hamacs, table officielle de bière pong, raquettes, guitare, tam-tam et didjéridous, bref tout ce qui vous passe sous la main ! Pour les loosers qui n'étaient pas là l'an dernier: le Cambon c'est un mas avec 100 hectares, au coeur du parc nationnal des Cévènnes. Autant vous dire qu'on ne sera pas emmerdé par les voisins ;) On balancera plus d'infos sur le thème du week-end dans le prochain post.
+<div class = 'cambon' style='color:steelblue;text-align:center;font-size:x-large;font-weight:bold;'>
+Les 17, 18 et 19 Juin <br> à Saint Jean du Bruel (Aveyron) <br>
+</div>
+
+
+<p style="margin-top: 20px">
+  Après le succès international de la dernière édition, la fine équipe du 34 (Arthur, Yann, Nico R. et Nico S.) sort à nouveau sa meilleure tireuse et sa MPC pour un grooooos week-end au Cambon ! 
 </p>
 
+<p style="margin-top: 20px">
+  Ramenez votre boule, votre bonne humeur et votre matos de glandouille: ballon, pétanque, slack-line, hamacs, table officielle de bière pong, raquettes, guitare, tam-tam et didjéridous, bref tout ce qui vous passe sous la main ! Pour les loosers qui n'étaient pas là l'an dernier: le Cambon c'est un mas de 100 hectares, au coeur du parc nationnal des Cévènnes. Autant vous dire qu'on ne sera pas emmerdé par les voisins ;) On balancera <b>plus d'infos sur le thème du week-end très prochainement</b>.
+</p>
+
+Pour l'event FB, c'est <a href="https://www.facebook.com/events/696435650499399/">par là</a>.
+
+<div id="map" style="width: 500px; height: 400px; margin-top:50px"></div>
 
 
-<h2>Aide nous à organiser !</h2>
 
-<p style="margin-top: 30px">
+<h2 style="margin-top:50px;margin-bottom:50px">Aide nous à organiser !</h2>
+
+<img class="img-gallery" src="../public/img/cambon.jpg" title="">
+
+
+<p style="margin-top: 20px">
 Beaucoup ont trouvé que nous avions manqué de pression du Larzac l'an dernier :D Du coup, cette année nous te demandons une petite contribution pour participer aux frais d'organisation. La cotisation sur leetchi confirmera ta présence au week-end et permettra d'acheter encore plus de bière ! 
 </p>
 
@@ -23,27 +38,30 @@ Pour cotiser,
 
 <h2>Covoiturage !</h2>
 
-<p style="margin-top: 30px; margin-bottom:15px;">
-	Depuis Montpellier, il faut compter environ deux jours de vélo (demandez le chemin à Mr Gentil), ou bien <b>1h15 de voiture</b>. On compte sur vous pour blinder au maximum les voitures, histoire que le site ne ressemble pas à un parking de supermarché ! 
+<p style="margin-top: 20px; margin-bottom:15px;">
+	Depuis Montpellier, il faut compter environ deux jours de vélo (demandez le chemin à Mr Gentil), ou bien <b>1h15 de voiture</b>. On compte sur vous pour blinder au maximum les voitures, histoire que le site ne ressemble pas à un parking de supermarché.
 </p>
 
-Pour organiser vos covoit', <a href="http://www.togetzer.com/index.php?view=organiser&idtf=1282">suivez ce lien !</a>
+Pour ceux qui viennent de plus loin (parisiens...), on espère que vous arriverez à nous rejoindre ! Pour vous faciliter (un peu) la tâche, organisez vos covoit', <a href="http://www.togetzer.com/index.php?view=organiser&idtf=1282">en suivant ce lien !</a>
 
 <h2>Comment nous trouver ?</h2>
 
-<p style="margin-top: 30px; margin-bottom:15px;">
+<p style="margin-top: 20px; margin-bottom:15px;">
 
-Depuis Saint-Jean du Bruel: Traverse le village jusqu'au terrain de foot, puis tourne à gauche et prends la route en direction du Viala / les Crozes Bas; 2km plus loin tu traverseras le Viala. Continue sur la route et monte sur environ 7 km dans la foret. Juste après les Crozes Bas, prends le virage en épingle à droite. Traverse les Crozes Hauts, puis continue pendant 1km jusqu'a croiser une barrière rouge sur la droite: entre sur le chemin, c'est là ! PS: si le chemin est plein il y en a un autre qui sera ouvert 30m plus haut (on mettra un panneau sur le portail pour te dire où garer ta poubelle)
+<b>Depuis Saint-Jean du Bruel:</b> <br> Traverse le village jusqu'au terrain de foot, puis tourne à gauche et prends la route en direction du Viala / les Crozes Bas; 2km plus loin tu traverseras le Viala. Continue sur la route et monte sur environ 7 km dans la foret. Juste après les Crozes Bas, prends le virage en épingle à droite. Traverse les Crozes Hauts, puis continue pendant 1km jusqu'a croiser une barrière rouge sur la droite: entre sur le chemin, c'est là ! PS: si le chemin est plein il y en a un autre qui sera ouvert 30m plus haut (on mettra un panneau sur le portail pour te dire où garer ta poubelle)
 </p>
 
 
-    <div id="map" style="width: 500px; height: 400px"></div>
     <script>
       function initMap() {
         var mapDiv = document.getElementById('map');
         var map = new google.maps.Map(mapDiv, {
           center: {lat: 44.0167, lng: 3.3667},
-          zoom: 12
+          zoom: 8
+        });
+        var marker = new google.maps.Marker({
+          position: {lat: 44.0167, lng: 3.3667},
+          map: map
         });
       }
 
