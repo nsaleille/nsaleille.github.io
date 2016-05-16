@@ -3,7 +3,6 @@ layout: default
 title: Home
 ---
 
-
 <h1 style="margin-top:-0.5em;margin-bottom:1em;">Welcome !</h1>
 
 ![placeholder](/public/img/IMG_0636-1.jpg "Greetings from Black Rock City ;)")

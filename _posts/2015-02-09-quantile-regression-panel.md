@@ -1,7 +1,11 @@
 ---
-layout: research
-title: Quantile regression for panel data
-subtitle: with Louise Paul-Delvaux and Jeremy L'hour (ENSAE) 
+layout: post
+type: research
+title: Semi and Non parametric Econometrics
+subtitle: Quantile regression for panel data
+at: ENSAE
+with: with Louise Paul-Delvaux and Jeremy L'hour (ENSAE)
+teaser:  We review the theoretical foundations and the most important properties of the quantile fixed-effect estimator suggested by Koenker (2004) to handle panel data. This estimator was specifically designed to take into account the panel structure of datasets...
 ---
 
 <a href="{{ base.url }}/download/snp_econ_lhour_paul-delvaux_saleille_2015.pdf" target="_blank">Download the full article</a>

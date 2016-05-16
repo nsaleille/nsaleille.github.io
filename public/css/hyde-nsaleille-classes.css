@@ -11,9 +11,10 @@
 	/*-moz-border-radius: 150px;*/
 }
 
-.research-subtitle{
+a .research-subtitle{
 	margin-top: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    color: cornflowerblue;
 }
 
 .img-gallery {

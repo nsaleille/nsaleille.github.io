@@ -1,9 +1,12 @@
 ---
-layout: research
-title: Efficient statistical methods to compute CVA sensitivities 
-subtitle: 
+layout: post
+type: research
+title: Counterparty Credit Risk
+subtitle: Efficient statistical methods to compute CVA sensitivities 
+at: BNP Paribas
 with: under the direction of Arnaud Tisseyre and Guillaume Hermet (BNP Paribas)
-subject: Counterparty Credit Risk, Quantitative finance @ BNP Paribas 
+teaser: Credit Valuation Adjustement (CVA) measures the counterparty risk embedded in any financial derivative. The main difficulties linked to CVA are of computational order, since its computation relies on heavy Monte-Carlo...
+<!-- subject: Counterparty Credit Risk, Quantitative finance @ BNP Paribas -->
 ---
 
 <a href="{{ base.url }}/download/2014_saleille_internship.pdf" target="_blank">Download the full article</a>

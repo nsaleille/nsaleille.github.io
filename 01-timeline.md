@@ -10,6 +10,18 @@ title: Timeline
 
 <!-- Timeline Start -->
 
+    
+
+<style>
+  #pic-ens {background: url("/public/img/ens-3.png"); background-size: cover;}
+  #pic-jourdan {background: url("/public/img/jourdan-2.jpg"); background-size: cover;}
+  #pic-ensae {background: url("/public/img/ensae-3.png"); background-size: cover;}
+  #pic-bnp {background: url("/public/img/bnp.jpg"); background-size: cover;}
+  #pic-lemonde {background: url("/public/img/lemonde-2.png"); background-size: cover;}
+  #pic-sorbonne {background: url("/public/img/sorbonne-3.png"); background-size: cover;}
+  #pic-baku {background: url("/public/img/baku.jpg"); background-size: cover;}
+
+</style>
 <section id="timeline" class="container content-section text-center">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
@@ -19,10 +31,7 @@ title: Timeline
           <li class="
           
           ">
-            <div class="timeline-image">
-             <img class="img-circle img-responsive" src="/public/img/logo-ayni.png" alt="">
-              <!-- <img class="img-circle img-responsive" src="" alt=""> -->
-            </div>
+            <div class="timeline-image"><img class="img-circle img-responsive" src="/public/img/logo-ayni.png" alt=""></div>
 
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -39,9 +48,7 @@ title: Timeline
           </li>
         
           <li class="timeline-inverted">
-            <div class="timeline-image">
-              <img class="img-circle img-responsive" src="" alt="">
-            </div>
+            <div class="timeline-image" id="pic-jourdan"></div>
             <div class="timeline-panel">
               <div class="timeline-heading">
                 <h4>Sept 14 - Oct 15 (1 year)</h4>
@@ -51,17 +58,13 @@ title: Timeline
               </div>
               <div class="timeline-body">
                 <!-- <p>MSc, Analysis and Policy in Economics</p> -->
-                The <a class='dl-link' href="http://www.master-ape.ens.fr/">APE master program</a> is one the best in Europe and covers most research areas in economics. I focused on econometrics and macroeconomics.
+                The <a class='dl-link' href="http://www.master-ape.ens.fr/">APE master program</a> is one of the best in Europe and covers most research areas in economics. I focused on econometrics and macroeconomics.
               </div>
             </div>
           </li>
         
         <li class="timeline">
-      		<div class="timeline-image">
-      			<!-- <img class="img-circle img-responsive" src="/public/img/bnp.jpg" alt=""> -->
-              <img class="img-circle img-responsive" src="" alt="">
-
-      		</div>
+      		<div class="timeline-image" id="pic-bnp"></div>
               <div class="timeline-panel">
                     <div class="timeline-heading">
                       <h4>Jul 13 - Jun 14 (1 year)</h4>
@@ -76,8 +79,8 @@ title: Timeline
         </li>
 
           <li class="timeline-inverted">
-            <div class="timeline-image">
-              <img class="img-circle img-responsive" src="" alt="">
+            <div class="timeline-image" id="pic-ensae">
+              <!-- <img class="img-circle img-responsive" src="" alt=""> -->
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -93,11 +96,7 @@ title: Timeline
           </li>
 
         <li class="timeline">
-          <div class="timeline-image">
-            <!-- <img class="img-circle img-responsive" src="/public/img/lemonde.jpg" alt=""> -->
-              <img class="img-circle img-responsive" src="" alt="">
-
-          </div>
+          <div class="timeline-image" id="pic-lemonde"></div>
               <div class="timeline-panel">
                     <div class="timeline-heading">
                       <h4>Jun - Jul 12 (1 month)</h4>
@@ -111,11 +110,7 @@ title: Timeline
         </li>
 
             <li class="timeline-inverted">
-            <div class="timeline-image">
-              <!-- <img class="img-circle img-responsive" src="/public/img/sorbonne.jpg" alt=""> -->
-              <img class="img-circle img-responsive" src="" alt="">
-
-            </div>
+            <div class="timeline-image" id="pic-sorbonne"></div>
             <div class="timeline-panel">
               <div class="timeline-heading">
                 <h4>Sep 10 - Oct 11 (1 year)</h4>
@@ -129,11 +124,7 @@ title: Timeline
           </li>
 
         <li class="timeline">
-          <div class="timeline-image">
-            <!-- <img class="img-circle img-responsive" src="/public/img/baku.jpg" alt=""> -->
-              <img class="img-circle img-responsive" src="" alt="">
-
-          </div>
+          <div class="timeline-image" id="pic-baku"></div>
               <div class="timeline-panel">
                     <div class="timeline-heading">
                       <h4>Jun - Aug 11 (3 months)</h4>
@@ -147,9 +138,9 @@ title: Timeline
         </li>
 
             <li class="timeline-inverted">
-            <div class="timeline-image">
-              <!-- <img class="img-circle img-responsive" src="/public/img/ens.jpg" alt=""> -->
-              <img class="img-circle img-responsive" src="" alt="">
+            <div class="timeline-image" id="pic-ens">
+              <!-- <img class="img-circle img-responsive" src="" alt=""> -->
+              <!-- <img class="img-circle img-responsive" src="" alt=""> -->
 
             </div>
             <div class="timeline-panel">

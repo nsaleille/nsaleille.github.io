@@ -1,9 +1,11 @@
 ---
-layout: research
-title: High-dimensional panel data using the Lasso 
-subtitle:
-with: with Jeremy L'hour (ENSAE) 
-subject: Advanced Econometrics @ Paris School of Economics 
+layout: post
+type: research
+title: Advanced Econometrics
+subtitle: High-dimensional panel data using the Lasso 
+at: Paris School of Economics
+with: with Jeremy L'hour (ENSAE)
+teaser: Methods to deal with high-dimensional problems are of interest in micro-econometrics mostly as a way to perform model selection, whether it is in a context of a non-parametric model estimated by sieve approximation, selection of control variables or instruments...
 ---
 
 <a href="{{ base.url }}/download/LHOUR_SALEILLE_ADVMETRICS2015.pdf" target="_blank">Download the full article</a>

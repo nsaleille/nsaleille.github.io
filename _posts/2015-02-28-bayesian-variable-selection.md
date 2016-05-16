@@ -1,8 +1,11 @@
 ---
-layout: research
-title: EMVS, the EM approach to Bayesian Variable Selection
-subtitle: Bayesian Statistics @ ENSAE 
-with: with Jeremy L'hour (ENSAE) 
+layout: post
+type: research
+title: Bayesian Statistics
+subtitle: EMVS, the EM approach to Bayesian Variable Selection
+at: ENSAE 
+with: with Jeremy L'hour (ENSAE)
+teaser: The Expectation-Maximisation applied to Variable Selection algorithm (EMVS) is a nice Bayesian selection tool. Its main feature is to lower considerably the computationnal power required to estimate posterior distributions in the feature space via MCMC...
 ---
 
 <a href="{{ base.url }}/download/LHOUR_SALEILLE_STATSBAYESIENNES_2015.pdf" target="_blank">Download the full article</a>

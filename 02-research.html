@@ -7,20 +7,17 @@ title: Research
 
 <div class="posts">
   {% for post in site.posts %}
-	
-	  {% if post.layout == 'research' %}
-		
+
+  		{% if post.type == 'research' %}
+  				
 		  <div class="post">
 		    
 		    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-		    <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-			<h4 class="research-subtitle">{{ post.subtitle }}</h4>
-
-		    {{ post.content }}
+			<h1><a href="{{ post.url }}"><div class="research-subtitle">{{ post.subtitle }}</div></a></h1>
+			{{ post.teaser }}
 		  </div>
 	  	
-	  {% endif %}
+  		{% endif %}
 
   {% endfor %}
 </div>
