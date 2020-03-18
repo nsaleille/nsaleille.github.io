@@ -12,7 +12,7 @@ tagline:          'Nicolas Saleille webpage'
 description:      'I am an economist and a fullstack data scientist. Fond of rock climbing and technologies.'
 url:              http://nsaleille.github.io/
 baseurl:          /
-logo : 			  /public/img/profile7.jpg
+logo : 			  /public/img/profile7.png
 author:
   name:           'Nicolas Saleille'
   url:            http://nsaleille.github.io
