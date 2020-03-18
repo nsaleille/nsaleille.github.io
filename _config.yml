@@ -9,10 +9,10 @@ permalink:        pretty
 # Setup
 title:            Nicolas Saleille
 tagline:          'Nicolas Saleille webpage'
-description:      'I am an economist and a fullstack data scientist. Fond of rock climbing and technologies. Active contributor @ayni.in'
+description:      'I am an economist and a fullstack data scientist. Fond of rock climbing and technologies.'
 url:              http://nsaleille.github.io/
 baseurl:          /
-logo : 			  /public/img/profile_pic_7.png
+logo : 			  /public/img/profile7.jpg
 author:
   name:           'Nicolas Saleille'
   url:            http://nsaleille.github.io

@@ -5,10 +5,10 @@ title: Home
 
 <h1 style="margin-top:-0.5em;margin-bottom:1em;">Welcome on my webpage !</h1>
 
-![placeholder](/public/img/IMG_0636-1.jpg "Greetings from Black Rock City")
+![placeholder](/public/img/cuba.jpg)
 
-I'm 27 years old and I live in Paris. I'm interested in a wide range of topics such as economics, mathematics, data science and AI.
+I'm interested in a wide range of topics such as economics, mathematics, data science and AI.
 
-I look forward contributing to meaningful causes to change things in a positive way. I am currently an active contributor to the awesome [Ayni project](https://ayni.in/), where I build analytic tools and algorithms to match language learners from all around the world.
+<!-- I look forward contributing to meaningful causes to change things in a positive way. I am currently an active contributor to the awesome [Ayni project](https://ayni.in/), where I build analytic tools and algorithms to match language learners from all around the world. -->
 
 This page gathers information on my work and the stuff that I love to do. I hope you'll like it ! In case you'd like to reach out, visit the [contact section]({{base.url}} /contact).
