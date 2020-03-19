@@ -7,8 +7,14 @@ title: Home
 
 ![placeholder](/public/img/cuba.jpg)
 
-I'm interested in a wide range of topics such as economics, mathematics, data science and AI.
+I am a Data Scientist with a strong interest in public administration issues.
 
-<!-- I look forward contributing to meaningful causes to change things in a positive way. I am currently an active contributor to the awesome [Ayni project](https://ayni.in/), where I build analytic tools and algorithms to match language learners from all around the world. -->
+I work on econometric and machine learning methods applied to concrete problems such as signal classification, time series analysis or image recognition.
 
-This page gathers information on my work and the stuff that I love to do. I hope you'll like it ! In case you'd like to reach out, visit the [contact section]({{base.url}} /contact).
+I hold a MSc in Economics from the Paris School of Economics and an Engineering degree in Statistics and Machine Learning from ENSAE Paris.
+
+##### Contact information
+
+[nicolas.saleille@gmail.com](mailto:nicolas.saleille@gmail.com) <br>
+[Github page](https://github.com/nsaleille) <br>
+[Linkedin profile](https://www.linkedin.com/in/nicolas-saleille-36023344/)
