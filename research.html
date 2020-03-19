@@ -5,18 +5,20 @@ title: Research
 
 <img src="/public/img/climbing.jpg" alt="placeholder" title="Climbing in the Calanques, Marseille" style="margin-bottom:3em;margin-top:3em;">
 
+#### Travaux de recherche
+
 <div class="posts">
   {% for post in site.posts %}
 
   		{% if post.type == 'research' %}
-  				
+
 		  <div class="post">
-		    
+
 		    <span class="post-date">{{ post.date | date_to_string }}</span>
 			<h1><a href="{{ post.url }}"><div class="research-subtitle">{{ post.subtitle }}</div></a></h1>
 			{{ post.teaser }}
 		  </div>
-	  	
+
   		{% endif %}
 
   {% endfor %}
