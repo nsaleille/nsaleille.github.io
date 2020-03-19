@@ -7,7 +7,7 @@ title: Home
 
 ![placeholder](/public/img/cuba.jpg)
 
-I am a Data Scientist with a strong interest in public administration issues.
+I am a Data Scientist with a strong interest in public policy issues.
 
 I work on econometric and machine learning methods applied to concrete problems such as signal classification, time series analysis or image recognition.
 
