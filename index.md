@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<h1 style="margin-top:-0.5em;margin-bottom:1em;">Welcome on my webpage !</h1>
+<h1 style="margin-top:-0.5em;margin-bottom:1em;">Bienvenue sur ma page personnelle</h1>
 
 ![placeholder](/public/img/cuba.jpg)
 
@@ -17,4 +17,3 @@ I hold a MSc in Economics from the Paris School of Economics and an Engineering 
 
 [nicolas.saleille@gmail.com](mailto:nicolas.saleille@gmail.com) <br>
 [Github page](https://github.com/nsaleille) <br>
-[Linkedin profile](https://www.linkedin.com/in/nicolas-saleille-36023344/)
