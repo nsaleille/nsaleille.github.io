@@ -9,7 +9,7 @@ permalink:        pretty
 # Setup
 title:            Nicolas Saleille
 tagline:          'Nicolas Saleille webpage'
-description:      'I am an economist and a fullstack data scientist. Fond of rock climbing and technologies.'
+description:      'Bienvenue sur ma page personnelle'
 url:              http://nsaleille.github.io/
 baseurl:          /
 logo : 			  /public/img/profile9.png
